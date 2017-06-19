@@ -1,0 +1,233 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-family: Arial;
+}
+header{
+    padding-top: 55px;
+}
+.container{
+    width: 1170px;
+    margin: 0px auto;
+}
+#main{
+    height: 760px;
+    background: url(../img/first.jpg) no-repeat center top / cover;
+    color: #fff;
+}
+.mail{
+    background: url(../img/mail.png) no-repeat left;
+    float: left;
+    padding-left: 25px;
+    font-size: 15px;
+}
+.logo{
+    float: left;
+    margin-left: 300px;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.logo span{
+    color: #66ad30;
+}
+.phone{
+    background: url(../img/phone.png) no-repeat left;
+    float: right;
+    padding-left: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 250px 0px 0px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+h1 span{
+    font-weight: normal;
+    font-size: 30px;
+    display: block;
+}
+.call{
+    background: #66ad30;
+    border-radius: 3px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+}
+.call:hover{
+    background: #558d31;
+}
+.call:active{
+        background: #aac900;
+}
+#about{
+    padding-top: 1px;
+    padding-bottom: 100px;
+    background: #fff;
+    color: initial;
+}
+.who{
+    margin: 85px;
+    height: 5px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.me_image{
+    height: 15%;
+    width: 15%;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+.me{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#about p{
+    text-align: center;
+    width: 600px;
+    margin: 0px auto;
+}
+.soc_block{
+    margin: 20px auto;
+    width: 130px;
+}
+.soc{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: black;
+    display: block;
+    float: left;
+    text-align: center;
+	line-height: 30px;
+    margin-right: 10px;
+}
+.soc:hover{
+    background: #66ad30;
+    box-shadow: 0px 0px 0px 7px #a3e870;
+}
+.ablock{
+    margin: 70px 0px 0px 558px;
+}
+.arrow img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #66ad30;
+    display: block;
+    float: left;
+    text-align: center;
+	line-height: 30px;
+    margin-right: 10px;
+}
+.arrow :hover{
+    box-shadow: 0px 0px 0px 7px #a3e870;
+}
+#uslugi{
+    height: 520px;
+    background: #f3f3f3;
+    color: initial;
+}
+.zakaz{
+    margin: 55px;
+    padding-top: 85px;
+    height: 5px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+form{
+    margin: 0px auto;
+    width: 300px;
+}
+.reg{
+    border-radius: 3px;
+	background: #fff;
+	display: block;
+	height: 57px;
+	padding-left: 24px;
+	border: 0px;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	margin-bottom: 14px;
+	width: 100%;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+.send{
+    background: #66ad30;
+    border-radius: 3px;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+}
+.send:hover{
+    background: #558d31;
+}
+.send:active{
+    background: #aac900;
+}
+.act{
+    border: 0px;
+	cursor: pointer;
+	font-size: 17px;
+	width: 288px;
+	box-sizing: border-box;
+}
+.up img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #66ad30;
+    display: block;
+    text-align: center;
+	line-height: 30px;
+    float: right;
+    margin: 40px 30px auto;
+}
+.up :hover{
+    box-shadow: 0px 0px 0px 7px #a3e870;
+}
+footer{
+    height: 110px;
+    background: #000;
+    color: #8a8a8a;
+}
+footer .logo{
+    margin: 0px;
+    margin-right: 320px;
+    float: left;
+    color: #fff;
+    padding-top: 45px;
+}
+.copyright{
+    font-size: 15px;
+    float: left;
+    padding-top: 30px;
+}
+footer .phone{
+    margin-top: 45px;
+}
